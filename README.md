@@ -3,7 +3,7 @@
 I wanted to use a contenteditable that I could alter it's content on each edit to make a rich editor.
 It isn't so simple as to just use `el.innerHTML` because that updates the whole DOM tree and breaks the editing experience (cursor placement, selections etc...)
 
-So I hacked up a solution involving importing React and the `react-contenteditable` which implements all this. The rest is just glue to make it work without using React or any specific framework.
+So I hacked up a solution involving importing React and the `react-contenteditable` which implements a VDOM-based way of setting the html and removes common contenteditable nuisances. The rest is just glue to make it work without using React or any specific framework.
 
 
 
