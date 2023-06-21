@@ -1,0 +1,19 @@
+<body>
+  <div
+    <h1>Hello</h1>
+    <div id="richEditor"></div>
+    <script src="bundle.js"></script>
+    <script>
+      window.onload = function() {
+            setupRichEdit("richEditor","Hello buddies",(str,cb) => {
+              if(str.endsWith("big")) {
+                cb(`<h1>${str}</h1>`)
+              }
+              else {
+                cb(`<h2>${str}</h2>`)
+              }
+            })
+        }
+    </script>
+</script>
+</body>

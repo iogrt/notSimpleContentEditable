@@ -1,0 +1,16 @@
+{
+  "name": "browserifytry",
+  "version": "1.0.0",
+  "description": "trying richedit browserify",
+  "main": "richedit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-contenteditable": "^3.3.7",
+    "react-dom": "^18.2.0"
+  }
+}
